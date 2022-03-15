@@ -24,3 +24,32 @@ header h1{
     display: inline-block;
     vertical-align: middle;
 }
+
+.container{
+    width: 800px;
+    background-color: white;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+
+.add-task{
+    margin-left: 50px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    background-color:#47adf1;
+    padding: 7px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+}
+
+.add-section{
+    padding: 7px;
+    border-radius: 5px;
+    background-color: white;
+    color: #ccd2d6;
+    border-color: #ccd2d6;
+
+}
+
