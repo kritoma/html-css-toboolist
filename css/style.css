@@ -27,10 +27,14 @@ header h1{
 
 .container{
     width: 800px;
-    background-color: white;
+    
     margin: auto;
     border-radius: 5px;
     margin-top: 40px;
+}
+
+.add{
+    background-color: white;
 }
 
 .add-task{
@@ -50,6 +54,67 @@ header h1{
     background-color: white;
     color: #ccd2d6;
     border-color: #ccd2d6;
-
 }
 
+.list{
+    margin-top: 2px;
+    background-color: white;
+    padding-left: 50px;
+    padding-top: 40px;
+}
+
+.check, .cross {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+}
+
+.check{
+    color: #65c0a9;
+}
+
+.cross{
+    color: red;    
+}
+
+
+.task{
+    display: inline-block;
+    padding: 10px 0;
+}
+
+.tag{
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 50px;
+    color: white;
+    font-size: small;
+}
+
+.tag-blue{
+    background-color: #47adf1;
+}
+
+.tag-violet{
+    background-color: #9c72e4;
+}
+
+.tag-green{
+    background-color: #64c0a9;
+}
+
+.tag-orange{
+    background-color: #f29e33;
+}
+
+.tag-rose{
+    background-color: #d863a1;
+}
+
+.tag-lightgreen{
+    background-color: #b0c926;
+}
